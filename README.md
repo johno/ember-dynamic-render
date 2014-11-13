@@ -2,7 +2,26 @@
 
 _Currently under development, and is intended to be a PoC._
 
-This is an [ember-cli](http://www.ember-cli.com/) addon for dynamic rendering.
+This is an [ember-cli](http://www.ember-cli.com/) addon for dynamic rendering. This is intended
+to allow templates to be rendered based off of variables, objects, and arrays similar to Rails
+functionality.
+
+### Proposed API
+
+Array rendering
+
+```hbs
+{{dynamic-render foos}} {{! {{render 'foo' foo}} for each object inferred by model name.}}
+```
+
+
+```hbs
+{{dynamic-render bar}} {{! {{render 'foo' foo}} for the object inferred by model name.}}
+```
+
+```hbs
+{{dynamic-render myVariable}} {{! {{render 'myVariableValue'}} }}
+```
 
 ## Installation
 
