@@ -8,16 +8,19 @@ functionality.
 
 ### Proposed API
 
-Array rendering
+###### Array rendering
 
 ```hbs
 {{dynamic-render foos}} {{! {{render 'foo' foo}} for each object inferred by model name.}}
 ```
 
+###### Object rendering
 
 ```hbs
-{{dynamic-render bar}} {{! {{render 'foo' foo}} for the object inferred by model name.}}
+{{dynamic-render bar}} {{! {{render 'bar' bar}} for the object inferred by model name.}}
 ```
+
+###### Rendering from a variable
 
 ```hbs
 {{dynamic-render myVariable}} {{! {{render 'myVariableValue'}} }}
