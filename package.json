@@ -1,6 +1,6 @@
 {
-  "name": "ember-dynamic-partial",
-  "version": "0.0.0",
+  "name": "ember-dynamic-render",
+  "version": "0.0.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -10,11 +10,11 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/stefanpenner/ember-cli",
+  "repository": "https://github.com/johnotander/ember-dynamic-render",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "John Otander",
   "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.2.0",
@@ -31,7 +31,10 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "render",
+    "dynamic",
+    "ember"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"

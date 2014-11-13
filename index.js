@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-dynamic-partial'
+  name: 'ember-dynamic-render'
 };
